@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie Dream Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #ffe4e1;
+        }
+        header {
+            background-color: #ff1493;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .product {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .main-image {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .description {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #d63384;
+        }
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ff1493;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+        .images img {
+            width: 100px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .cta a {
+            display: inline-block;
+            margin: 10px;
+            color: #ff00d0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .cta a:hover {
+            text-decoration: underline;
+        }
+        .reviews {
+            margin: 20px;
+            font-size: 18px;
+        }
+        .newsletter {
+            margin: 20px;
+        }
+        .newsletter input {
+            padding: 8px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .newsletter button {
+            background-color: #ff1493;
+        }
+        .newsletter button:hover {
+            background-color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Barbie Dream Collection</h1>
+    </header>
+    
+    <section class="product">
+        <img src="c:\Users\PRANAVI\OneDrive\Documents\MY PROFILE PAGE\1.jpg" alt="Barbie Doll" class="main-image">
+        <p class="description">Experience the magic of Barbie with this beautiful princess doll, perfect for all ages.</p>
+        <p class="price">Price: ₹2,499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </section>
+    
+    <section class="images">
+        <img src="C:\Users\PRANAVI\OneDrive\Documents\MY PROFILE PAGE\2.jpg" alt="Barbie Doll Side View">
+        <img src="C:\Users\PRANAVI\OneDrive\Documents\MY PROFILE PAGE\3.jpg" alt="Barbie Doll Back View">
+    </section>
+    
+    <section class="cta">
+        <a href="#" class="learn-more">Learn More</a>
+        <a href="#" class="contact">Contact Us</a>
+    </section>
+    
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <p>⭐⭐⭐⭐⭐ "Absolutely adorable and high quality!" - Sophia</p>
+        <p>⭐⭐⭐⭐⭐ "My daughter loves it so much!" - Emily</p>
+    </section>
+    
+    <section class="newsletter">
+        <h2>Subscribe for Updates</h2>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </section>
+    
+    <script>
+        function addToCart() {
+            alert('🎀 Barbie Doll has been added to your cart! 🎀');
+        }
+    </script>
+</body>
+</html>
